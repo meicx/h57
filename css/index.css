@@ -1,0 +1,546 @@
+body {
+  width: 100%;
+  height: 100%;
+  max-width: 640px;
+  overflow: hidden;
+  margin: 0 auto;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.IIV::-webkit-media-controls-play-button, video::-webkit-media-controls-start-playback-button {
+  opacity: 0;
+  pointer-events: none;
+  width: 5px;
+}
+
+.box-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: url("../images/bg.jpg");
+  background-size: 100% 100%;*/
+}
+
+.img_1_box {
+  position: absolute;
+  bottom: 7.733333rem;
+  left: 6.24rem;
+  width: 7.946667rem;
+  z-index: 1
+}
+
+.img_2_shou {
+  position: absolute;
+  bottom: 9.333333rem;
+  left: 6.346667rem;
+  width: 4.106667rem;
+  z-index: 1;
+  animation-name: breath;
+  /* 动画名称 */
+  animation-duration: 1.5s;
+  /* 动画时长3秒 */
+  animation-timing-function: ease-in-out;
+  /* 动画速度曲线：以低速开始和结束 */
+  animation-iteration-count: infinite;
+  /* 播放次数：无限 */
+  /* Safari and Chrome */
+  -webkit-animation-name: breath;
+  /* 动画名称 */
+  -webkit-animation-duration: 1.5s;
+  /* 动画时长3秒 */
+  -webkit-animation-timing-function: ease-in-out;
+  /* 动画速度曲线：以低速开始和结束 */
+  -webkit-animation-iteration-count: infinite;
+  /* 播放次数：无限 */
+  opacity: 0.1;
+}
+.img-wrap9 .img_1{
+	width: 60%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 1.4rem;
+	margin: 0 auto;
+	z-index: 10;
+}
+.img-wrap9 .img_2{
+	width: 60%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 6.5rem;
+	margin: 0 auto;
+	z-index: 10;
+}
+.img-wrap9 .guankan{
+  position: absolute;
+  left: 3.2rem;
+  bottom: 1.6rem;
+  border-radius: 5px;
+  border:1px solid #fff;
+  font-size: 0.853333rem;
+  color: #ffffff;
+  z-index: 10;
+  padding: 0.533333rem 1.066667rem;
+}
+.img-wrap9 .goshare{
+  position: absolute;
+  right: 3.2rem;
+  bottom: 1.6rem;
+  border-radius: 5px;
+  border:1px solid #fff;
+  font-size: 0.853333rem;
+  color: #ffffff;
+  z-index: 10;
+  padding: 0.533333rem 1.066667rem;
+}
+.goshare_wrap{
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 20;
+  background: rgba(0,0,0,.8);
+}
+
+.go_share_text img{
+    width: 60%;
+    position: absolute;
+    right: 1.6rem;
+    top: 1.666667rem;
+}
+.img-wrap8 .img_1 {
+	width: 40%;
+	position: absolute;
+	left: 1.07rem;
+	bottom: 11.33rem;
+	z-index: 10;
+}
+
+.img-wrap8 .img_2 {
+	width: 40%;
+	position: absolute;
+	left: 1.07rem;
+	bottom: 9.47rem;
+	z-index: 10;
+}
+
+.img-wrap8 .img_3 {
+	width: 40%;
+	position: absolute;
+	left: 1.07rem;
+	bottom: 8.03rem;
+	z-index: 10;
+}
+
+.img-wrap8 .img_4 {
+	width: 40%;
+	position: absolute;
+	left: 1.07rem;
+	bottom: 6.11rem;
+	z-index: 10;
+}
+
+.img-wrap8 .img_5 {
+	width: 40%;
+	position: absolute;
+	left: 1.07rem;
+	bottom: 4.67rem;
+	z-index: 10;
+}
+.img-wrap7 .img_1 {
+	width: 48%;
+	position: absolute;
+	right: 1.07rem;
+	top: 3.2rem;
+	z-index: 10;
+}
+
+.img-wrap7 .img_2 {
+	width: 50%;
+	position: absolute;
+	right: 1.07rem;
+	top: 4.27rem;
+	z-index: 10;
+}
+
+.img-wrap7 .img_3 {
+	width: 50%;
+	position: absolute;
+	right: 1.07rem;
+	top: 5.44rem;
+	z-index: 10;
+}
+
+.img-wrap7 .img_4 {
+	width: 50%;
+	position: absolute;
+	right: 1.07rem;
+	top: 6.61rem;
+	z-index: 10;
+}
+
+.img-wrap7 .img_5 {
+	width: 50%;
+	position: absolute;
+	right: 1.07rem;
+	top: 7.79rem;
+	z-index: 10;
+}
+.img-wrap7 .img_6 {
+	width: 50%;
+	position: absolute;
+	right: 1.07rem;
+	top: 8.91rem;
+	z-index: 10;
+}
+.img-wrap7 .img_7 {
+	width: 50%;
+	position: absolute;
+	right: 1.07rem;
+	top: 10.13rem;
+	z-index: 10;
+}
+.img-wrap7 .img_8 {
+	width: 50%;
+	position: absolute;
+	right: 1.07rem;
+	top: 11.31rem;
+	z-index: 10;
+}
+
+.img-wrap6 .img_1 {
+	width: 46%;
+  position: absolute;
+  right: 1.07rem;
+  bottom: 11.73rem;
+  z-index: 10;
+}
+
+.img-wrap6 .img_2 {
+	width: 46%;
+	position: absolute;
+	right: 1.07rem;
+	bottom: 10.29rem;
+	z-index: 10;
+}
+
+.img-wrap6 .img_3 {
+	width: 46%;
+	position: absolute;
+	right: 1.07rem;
+	bottom: 8.96rem;
+	z-index: 10;
+}
+
+.img-wrap6 .img_4 {
+	width: 46%;
+	position: absolute;
+	right: 1.07rem;
+	bottom: 7.52rem;
+	z-index: 10;
+}
+
+.img-wrap6 .img_5 {
+	width: 46%;
+	position: absolute;
+	right: 1.07rem;
+	bottom: 6.3rem;
+	z-index: 10;
+}
+.img-wrap6 .img_6 {
+	width: 46%;
+	position: absolute;
+	right: 1.07rem;
+	bottom: 4.96rem;
+	z-index: 10;
+}
+.img-wrap6 .img_7 {
+	width: 46%;
+  position: absolute;
+  right: 1.07rem;
+  bottom: 3.89rem;
+  z-index: 10;
+}
+.img-wrap5 .img_1 {
+	width: 55%;
+	position: absolute;
+	right: 1.07rem;
+	top: 3.2rem;
+	z-index: 10;
+}
+
+.img-wrap5 .img_2 {
+	width: 55%;
+	position: absolute;
+	right: 1.07rem;
+	top: 4.33rem;
+	z-index: 10;
+}
+
+.img-wrap5 .img_3 {
+	width: 55%;
+	position: absolute;
+	right: 1.07rem;
+	top: 5.91rem;
+	z-index: 10;
+}
+
+.img-wrap5 .img_4 {
+	width: 55%;
+	position: absolute;
+	right: 1.07rem;
+	top: 7.29rem;
+	z-index: 10;
+}
+
+.img-wrap5 .img_5 {
+	width: 55%;
+	position: absolute;
+	right: 1.07rem;
+	top: 8.67rem;
+	z-index: 10;
+}
+
+
+
+.img-wrap4 .img_1 {
+  width: 70%;
+  position: absolute;
+  left: 1.07rem;
+  top: 3.2rem;
+  z-index: 10;
+}
+
+.img-wrap4 .img_2 {
+  width: 70%;
+  position: absolute;
+  left: 1.07rem;
+  top: 4.27rem;
+  z-index: 10;
+}
+
+.img-wrap4 .img_3 {
+  width: 70%;
+  position: absolute;
+  left: 1.07rem;
+  top: 5.43rem;
+  z-index: 10;
+}
+
+.img-wrap4 .img_4 {
+  width: 70%;
+  position: absolute;
+  left: 1.07rem;
+  top: 6.5rem;
+  z-index: 10;
+}
+
+.img-wrap4 .img_5 {
+  width: 70%;
+  position: absolute;
+  left: 1.07rem;
+  top: 7.57rem;
+  z-index: 10;
+}
+
+.img-wrap4 .img_6 {
+  width: 70%;
+  position: absolute;
+  left: 1.07rem;
+  top: 8.63rem;
+  z-index: 10;
+}
+
+.img-wrap3 .img_1 {
+  width: 65%;
+  position: absolute;
+  right: 1.07rem;
+  bottom: 11.68rem;
+  z-index: 10;
+}
+
+.img-wrap3 .img_2 {
+  width: 65%;
+  position: absolute;
+  right: 1.07rem;
+  bottom: 10.4rem;
+  z-index: 10;
+}
+
+.img-wrap3 .img_3 {
+  width: 65%;
+  position: absolute;
+  right: 1.07rem;
+  bottom: 9.01rem;
+  z-index: 10;
+}
+
+.img-wrap3 .img_4 {
+  width: 65%;
+  position: absolute;
+  right: 1.07rem;
+  bottom: 7.41rem;
+  z-index: 10;
+}
+
+.img-wrap3 .img_5 {
+  width: 65%;
+  position: absolute;
+  right: 1.07rem;
+  bottom: 6.01rem;
+  z-index: 10;
+}
+
+.img-wrap3 .img_6 {
+  width: 65%;
+  position: absolute;
+  right: 1.07rem;
+  bottom: 4.41rem;
+  z-index: 10;
+}
+
+.img-wrap3 .img_7 {
+  width: 65%;
+  position: absolute;
+  right: 1.07rem;
+  bottom: 3.35rem;
+  z-index: 10;
+}
+
+.img-wrap2 .img_bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+
+.img-wrap2 .img_1 {
+  width: 45%;
+  position: absolute;
+  left: 1.07rem;
+  bottom: 12rem;
+  z-index: 10;
+}
+
+.img-wrap2 .img_2 {
+  width: 45%;
+  position: absolute;
+  left: 1.07rem;
+  bottom: 10.67rem;
+  z-index: 10;
+}
+
+.img-wrap2 .img_3 {
+  width: 45%;
+  position: absolute;
+  left: 1.07rem;
+  bottom: 9.4rem;
+  z-index: 10;
+}
+
+.img-wrap2 .img_4 {
+  width: 45%;
+  position: absolute;
+  left: 1.07rem;
+  bottom: 8.07rem;
+  z-index: 10;
+}
+
+.img-wrap2 .img_5 {
+  width: 45%;
+  position: absolute;
+  left: 1.07rem;
+  bottom: 6.73rem;
+  z-index: 10;
+}
+
+.img-wrap2 .img_6 {
+  width: 45%;
+  position: absolute;
+  left: 1.07rem;
+  bottom: 5.4rem;
+  z-index: 10;
+}
+
+.img-wrap2 .img_7 {
+  width: 45%;
+  position: absolute;
+  left: 1.07rem;
+  bottom: 4.27rem;
+  z-index: 10;
+}
+
+.img-wrap1 .img_1 {
+  width: 65%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+  bottom: 6.36rem;
+  z-index: 10;
+}
+
+.img-wrap1 .img_2 {
+  width: 65%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+  bottom: 5.13rem;
+  z-index: 10;
+}
+
+.img-wrap1 .img_3 {
+  width: 65%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+  bottom: 4.01rem;
+  z-index: 10;
+}
+
+@keyframes breath {
+  from {
+    opacity: 0.1;
+  }
+  /* 动画开始时的不透明度 */
+  50% {
+    opacity: 1;
+  }
+  /* 动画50% 时的不透明度 */
+  to {
+    opacity: 0.1;
+  }
+  /* 动画结束时的不透明度 */
+}
+
+@-webkit-keyframes breath {
+  from {
+    opacity: 0.1;
+  }
+  /* 动画开始时的不透明度 */
+  50% {
+    opacity: 1;
+  }
+  /* 动画50% 时的不透明度 */
+  to {
+    opacity: 0.1;
+  }
+  /* 动画结束时的不透明度 */
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
